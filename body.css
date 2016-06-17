@@ -1,0 +1,80 @@
+<b:template-skin><![CDATA[
+/*------Layout (No Edit)----------*/
+
+body#layout {
+background: #fff url(http://s32.postimg.org/4241y12gl/image.png) no-repeat;
+padding-top: 245px !important;
+}
+body#layout div.section {
+background: #8095AA !important;
+border: 0 !important;
+color: #fff !important;
+font-family: 'mahdi-font',sans-serif;
+}
+#layout .section h4:before {
+content: "";
+background: url(http://s32.postimg.org/fivyvkvqt/image.png) left no-repeat;
+display: block;
+width: 51px;
+height: 49px;
+background-size: 51px;
+float: left;
+position: relative;
+top: -3px;
+}
+#layout .section h4 {
+line-height: 41px !important;
+font-weight: 100;
+font-size: 18px !important;
+padding-bottom: 0 !important;
+position: relative;
+top: 4px;
+}
+body#layout .add_widget a {
+color: #fff !important;
+}
+
+#layout div#logo {
+float: right;
+width: 41%;
+}
+
+#layout .navtop-menu-table {
+    display: none;
+} 
+
+#layout .navtop-social {
+    display: none;
+}
+
+#layout .all-footer-box-2 {
+    width: 33%;
+    float: left;
+}
+#layout .all-footer-box-1 {
+    width: 33%;
+    float: left;
+}
+#layout .all-footer-box-3 {
+    width: 33%;
+    float: left;
+
+}
+
+
+#layout div#all {
+    display: none;
+}
+
+#layout .all-postbar {
+    width: 70%;
+    float: right;
+}
+
+#layout .all-sidebar {
+    width: 30%;
+    float: left;
+}
+
+/*------Layout (end)----------*/
+]]></b:template-skin>
