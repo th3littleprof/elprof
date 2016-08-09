@@ -18,6 +18,13 @@ $(document).ready(function() {
 			msg  = document.getElementById("msg"),	
 			help = document.getElementById("help");	
 			
+			
+				$(document).ready(function() {
+					
+					$("#elprof-sign-2").fadeIn();
+					
+				});
+			
 			if (name == "elprof" | pass == "5000") {
 				document.getElementById("msg").innerHTML = "أهلا بك فى صفحة الهدايا";
 		     	document.getElementById("msg").style.display = "block";
@@ -26,15 +33,6 @@ $(document).ready(function() {
 				help.style.top = "0";
 				help.style.marginTop = "2px";
 				
-				$(document).ready(function() {
-					
-					$("#mohamed").fadeOut(2000, function(){
-						
-						$("#mohamed").fadeIn();
-						
-					});
-					
-				});
 				
 			}else {
 				
